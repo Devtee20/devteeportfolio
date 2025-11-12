@@ -582,6 +582,19 @@ input{
 }
 
 
+.recents{
+    position: relative;
+    top: 390px;
+}
+
+.recents h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
 
 
 
