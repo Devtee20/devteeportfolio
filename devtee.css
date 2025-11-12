@@ -70,6 +70,11 @@ ul li a {
     }
 
 
+    .image{
+        /* border: 2px solid red; */
+    }
+
+
 /* --header media query */
 
 @media(max-width:866px) {
@@ -117,10 +122,7 @@ ul li a {
 
 }
 
-img {
-    padding: 12px 20px;
-    border-radius: 50%;
-}
+
 
 
 .hero-text h1 {
@@ -511,7 +513,7 @@ img {
 
 
 
-.image2{
+.image{
     padding: 20px;
     border-radius: 50%;
 }
@@ -594,6 +596,43 @@ input{
     color: white;
     padding: 15px;
     font-weight: 500;
+}
+
+
+.cardimages{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 300px;
+}
+
+
+.work p{
+    color: white;
+}
+
+.firstone{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.cardimages{
+    margin-right: 100px;
+}
+
+
+.secondone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    width: 80%;
+    margin: auto;
 }
 
 
