@@ -665,7 +665,7 @@ input{
 
 
   .cardimages{
-    border: 2px solid #a270ff;
+    /* border: 2px solid #a270ff; */
     text-align: center;
     margin: auto;
   }
