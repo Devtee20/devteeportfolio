@@ -651,14 +651,14 @@ input{
 @media(max-width:447px) {
 
    .firstone img{
-    width: 250px;
+    width: 270px;
     display: flex;
     align-items: center;
    }
    
 
    .secondone img{
-    width: 250px;
+    width: 270px;
     display: flex;
     align-items: center;
    }
@@ -668,6 +668,10 @@ input{
     border: 2px solid #a270ff;
     text-align: center;
     margin: auto;
+  }
+
+  .cardimages p{
+    padding: 20px;
   }
    
 }
