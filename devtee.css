@@ -647,6 +647,8 @@ input{
 
 
 
+
+
 /* recent work media query */
 @media(max-width:447px) {
 
@@ -674,6 +676,11 @@ input{
     padding: 20px;
   }
    
+
+  .worksrecent{
+    /* border: 2px solid red; */
+    margin-left: 5px;
+  }
 }
 
 
