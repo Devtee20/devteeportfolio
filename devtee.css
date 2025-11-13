@@ -607,14 +607,28 @@ input{
 }
 
 .firstone{
-    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     gap: 20px;
     width: 80%;
     margin: auto;
+ 
+}
+
+.firstone img{
+    /* border: 2px solid red; */
+    width: 400px;
+    margin-bottom: 10px;
+
+}
+
+
+.secondone img{
+    /* border: 2px solid gold; */
+    width: 400px;
+    margin-bottom: 10px;
+
 }
 
 .cardimages{
@@ -630,6 +644,36 @@ input{
     width: 80%;
     margin: auto;
 }
+
+
+
+/* recent work media query */
+@media(max-width:447px) {
+
+   .firstone img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+   }
+   
+
+   .secondone img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+   }
+
+
+  .cardimages{
+    border: 2px solid #a270ff;
+    text-align: center;
+    margin: auto;
+  }
+   
+}
+
+
+
 
 
 
