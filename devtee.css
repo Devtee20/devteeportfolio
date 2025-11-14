@@ -711,9 +711,11 @@ input{
 
 
 /* recent work media query */
-@media(max-width:953px){
-   .upper-cards{
-    /* border: 2px solid gold; */
+@media(max-width:883px){
+
+    
+    
+    .upper-cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -731,7 +733,7 @@ input{
    }
 
 }
-/* 
+
 @media(max-width:478px){
    
     
@@ -743,14 +745,65 @@ input{
     .upper-cards p{
      
       width: 300px;
-      align-content: center;
     }
 
     .lower-cards p{
         width: 300px;
     }
 
-} */
+    .project-card{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media(max-width:395px){
+
+
+
+  
+
+       .pictimg{
+      
+        width: 250px;
+    }
+
+    .upper-cards p{
+     
+      width: 250px;
+    }
+
+    .lower-cards p{
+        
+    width: 250px;
+    }
+
+
+    .project-card{
+        width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ 
+
+ }
+
+
+
+   
+
+    
+
+
+
+
 
 
 
