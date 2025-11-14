@@ -34,7 +34,7 @@ nav {
     padding: 20px;
 }
 
-.fa-bars {
+.fa-bars{
     display: none;
 }
 
@@ -91,7 +91,7 @@ ul li a {
 
     
     .fa-bars {
-        display: block;
+       display: block;
     }
 
 }
@@ -196,9 +196,7 @@ ul li a {
 
 
 .services h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 20px 24px;
     color: white;
     font-weight: 500;
@@ -330,7 +328,6 @@ ul li a {
     background-color: #a270ff;
     transition: all 1.5 ease;
 }
-
 
 
 
@@ -586,9 +583,7 @@ input{
 }
 
 .recents h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: white;
     padding: 15px;
     font-weight: 500;
@@ -596,11 +591,14 @@ input{
 
 
 .cardimages{
-    /* border: 2px solid red; */
     height: 400px;
     width: 300px;
 }
 
+.work{
+    border: 2px solid red;
+    padding: 10px;
+}
 
 .work p{
     color: white;
@@ -608,11 +606,13 @@ input{
 
 .firstone{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
     justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin: auto;
+    align-items: center;
+    gap: 4em;
+    /* width: 80%; */
+    /* margin: auto; */
  
 }
 
@@ -632,57 +632,161 @@ input{
 }
 
 .cardimages{
+    border: 2px solid green;
     margin-right: 100px;
 }
 
 
 .secondone{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 2em;
     width: 80%;
     margin: auto;
 }
 
+.work-img{
+    width: 500px;
+}
 
+/* -----work---section---- */
+.work-section{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 390px;
+}
+.work-section h2{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+     padding: 20px 24px;
+}
+
+.upper-cards{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.project-card{
+    /* border: 2px solid yellowgreen; */
+    width: 400px;
+    height: 400px;
+}
+.project-card p{
+    color: white;
+    padding: 10px 0px;
+}
+.lower-cards{
+     display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.stylebut{
+    /* border: 2px solid red; */
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b98eff;
+   
+}
+
+
+.stylebut:hover{
+    background-color: #a270ff;
+}
+
+
+.stylebut a{
+    color: white;
+   font-size: 1.4em;
+   font-weight: 500;
+   
+}
+
+
+/* recent work media query */
+@media(max-width:953px){
+   .upper-cards{
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+   }
+
+
+   .lower-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+   }
+
+}
+/* 
+@media(max-width:478px){
+   
+    
+    .pictimg{
+      
+        width: 300px;
+    }
+
+    .upper-cards p{
+     
+      width: 300px;
+      align-content: center;
+    }
+
+    .lower-cards p{
+        width: 300px;
+    }
+
+} */
 
 
 
 /* recent work media query */
-@media(max-width:447px) {
 
-   .firstone img{
-    width: 270px;
-    display: flex;
-    align-items: center;
-   }
+/* @media(max-width:914px) {
+    .firstone{
+      
+       display: flex;
+      flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 2em;
+       width: 80%;
+        margin: auto;
+    }
+
+    .secondone{
+        display: flex;
+      flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 2em;
+       width: 80%;
+        margin: auto;
+
+    }
+
+    
+  } */
+
+
+  
+
+
    
-
-   .secondone img{
-    width: 270px;
-    display: flex;
-    align-items: center;
-   }
-
-
-  .cardimages{
-    /* border: 2px solid #a270ff; */
-    text-align: center;
-    margin: auto;
-  }
-
-  .cardimages p{
-    padding: 20px;
-  }
-   
-
-  .worksrecent{
-    /* border: 2px solid red; */
-    margin-left: 5px;
-  }
-}
-
 
 
 
