@@ -811,7 +811,7 @@ input {
 
 
 .contactsect{
-    border: 2px solid red;
+    /* border: 2px solid red;g */
     position: relative;
     top: 460px;
     padding: 20px;
