@@ -42,11 +42,7 @@ nav {
     padding: 18px;
 }
 
-/* .fa-bars {
-    display: none;
-    font-size: 1.8em;
-    cursor: pointer;
-} */
+
 
 ul {
     display: flex;
@@ -303,11 +299,33 @@ ul li a:hover {
 
 
 
-    .services h2 {
+    /* .services h2 {
         text-align: center;
         padding: 20px 24px;
         color: white;
         font-weight: 500;
+    } */
+
+
+    .section-title{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+
+    .section-title::after{
+        content: "";
+        width: 60px;
+        height: 3px;
+        background: #c9a7eb;
+        display: block;
+        margin: 10px auto 0;
+        border-radius: 5px;
+
     }
 
 
@@ -545,7 +563,7 @@ ul li a:hover {
     .marq-images {
         text-align: center;
         position: relative;
-        padding-top: 50px;
+        padding-top: 30px;
         /* top: 250px; */
         color: white;
     }
@@ -610,14 +628,7 @@ ul li a:hover {
     }
 
 
-    /* @media(max-width:766px) {
-    .skills-images {
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
-    }
 
-} */
 
     /* another section starts here  */
 
@@ -914,7 +925,7 @@ ul li a:hover {
     /* section */
     .contactsect {
         position: relative;
-        margin-top: 70px;
+        /* margin-top: 50px; */
         padding: 40px 20px;
         display: flex;
         justify-content: center;
